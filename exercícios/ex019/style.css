@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(174, 248, 223);
+    font-family: garamond, serif;
+}
+
+h1{
+    color:darkblue;
+}
+h1#principal{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.753);
+    background-color: gray;
+}
+h2{
+    color: brown;
+}
+.basico{
+    color: darkgreen;
+}
+.inter{
+    color: darkgoldenrod;
+}
+.avancado{
+    color: darkred;
+}
