@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: wheat;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: cadetblue;
+}
+
+menu li{
+    background-color: darkgrey;
+    color: wheat;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 800px;
+    display: block;
+    margin: auto;
+}
