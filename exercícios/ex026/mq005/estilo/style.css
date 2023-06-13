@@ -14,12 +14,27 @@ header{
 }
 
 header > h1{
-    padding: 10px;
+    color: wheat;
+    padding: 30px;
     text-align: center;
 }
 
-menu{
+i#burger{
+    background-color: tomato;
+    color: wheat;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger:hover{
+    background-color: wheat;
+    color: tomato;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul{
@@ -29,6 +44,7 @@ menu > ul{
 menu a{
     display: block;
     padding: 10px;
+    font-weight: bold;
     text-decoration: none;
     text-align: center;
     background-color: cadetblue;
